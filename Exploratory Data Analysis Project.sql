@@ -1,6 +1,6 @@
 -- Exploratory Data Analysis
 
--- I explored the data to find trends, patterns, or anything interesting like outliers
+-- Now that the data is cleaned, I explored the data to find trends, patterns, or anything interesting like outliers
 
 
 SELECT *
