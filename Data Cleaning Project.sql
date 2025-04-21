@@ -65,9 +65,6 @@ DELETE
 FROM duplicate_cte
 WHERE row_num > 1;
 
--- MySQL doesn't let me delete in CTE so I will make another table with row numbers greater than 1, and then
--- delete those rows
-
 CREATE TABLE `layoffs_staging2` (
   `company` text,
   `location` text,
